@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*.me{
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: orange;
+	
+	width: 150px;
+}*/
+
+.navbar {
+	background-color: rgba(0,0,0,0.4);
+	min-height: 50px;
+	/*position: fixed;*/
+
+}
+
+
+
+
+
+.wire{
+	/*border: 1px solid red;*/
+	padding: 20px;
+}
+
+body{
+	background-image: url(../images/wood.jpg);
+}
+/*
+.left1{
+	min-height: 600px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+}*/
+
+/*.p1{
+	color: orange;
+}*/
+
+.h11{
+	color : orange;
+}
+
+.midborder {
+	background-color: rgba(0,0,0,0.4);
+}
+.p1	{
+	color: white;
+	text-align: middle;
+}
+.h12{
+	color : orange;
+}
