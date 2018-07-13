@@ -4,37 +4,65 @@
 	box-sizing:border-box;
 }
 
-/*.me{
-	height: 150px;
-	border-radius: 100%;
-	border-style: solid;
-	border-color: orange;
-	
-	width: 150px;
+#navs{
+	margin-left: 100px;
+}
+
+
+
+#navtrans{
+	background-color: rgba(0,0,0, 0.4);
+	/*height: 80px;*/
+	z-index: 1;
+	position:fixed;
+}
+
+/*.main {
+	padding: px;
 }*/
 
-.main {
-	padding: 10px;
+
+
+	
 }
 
-.bg {
-	background-image: url(../images/halaman.jpg);
-	background-size: cover;
-	min-height: 850px;
+.h21 {
+	padding-top: 3%;
+	padding-left: 8%;
+	color: rgb(169,169,169);
+	text-shadow: 3px 3px black;
+	font-size: 50px;
 }
 
-.navbar {
-	background-color: rgb(0,0,0, 0.4);	
+.h22 {
+	padding-top: 2%;
+	padding-left: 4%;
+	color: rgb(169,169,169);
+	text-shadow: 3px 3px black;
+	font-size: 50px;
 }
 
-.halaman {
+
+
+
+.laphones{
 	width:100%;
-	height:100%; 		
+	height:700px;
+	min-height: 
 }
 
-/* .wire{
+ /*.wire{
 	border: 1px solid red;	
-} */
+}*/
+
+.wire5 {
+	/*float:left;*/
+	padding-left: 50%;
+	margin-left: 50px;
+	display: inline;
+} 
+
+
 
 .row1 {
 	padding-left:50px;
@@ -76,10 +104,76 @@
 }
 .a1 {
 	color: gray;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 	margin-top: 10px;
 }
 .a3 {
 	color:gray;
 
 }
+
+/*desktop*/
+@media only screen and (min-width: 961px) {
+.bg {
+	background-image: url(../images/shoes.jpg);
+	background-size: cover;
+	/*height: 100%;*/
+	min-height: 700px;
+}
+.myimage {
+	/*text-align: center;*/
+	height: 45%;
+	border: solid 5px rgba(0,0,0, 0.1);
+	width: 45%;
+	margin-left: 29%;
+	margin-top:10%;
+	border-width:20px;  
+    border-style:double;
+}
+}
+
+/*tablets*/
+@media only screen and (min-width: 416px) and (max-width: 960px){
+.bg {
+	background-image: url(../images/shoes.jpg);
+	background-size: cover;
+	/*height: 100%;*/
+	min-height: 700px;
+}
+.myimage {
+	/*text-align: center;*/
+	height: 25%;
+	border: solid 5px rgba(0,0,0, 0.1);
+	width: 2545
+	margin-left: 40%;
+	margin-top:10%;
+	border-width:20px;  
+    border-style:double;
+}
+}
+/*mobile*/
+@media only screen and (max-width: 415px) {
+.bg {
+	background-image: url(../images/shoes.jpg);
+	background-size: cover;
+	/*height: 100%;*/
+	min-height: 500px;
+}
+.myimage {
+	/*text-align: center;*/
+	height: 60%;
+	border: solid 5px rgba(0,0,0, 0.1);
+	width: 60%;
+	margin-left: 24%;
+	margin-top:30%;
+	border-width:20px;  
+    border-style:double;
+}
+}
+
+
+
+
+
+
+
