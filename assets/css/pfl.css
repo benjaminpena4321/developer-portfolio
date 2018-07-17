@@ -77,17 +77,17 @@
 
 .img1{
 	width:90%;
-	height:350px;
+	height:300px;
 	/* margin-left:50px; */
 }
 .img2{
 	width:90%;
-	height:350px;
+	height:300px;
 	/* padding-left:25px; */
 }
 .img3{
 	width:90%;
-	height:350px;
+	height:300px;
 	/* padding-right:35px; */
 }
 .rowpic1{
@@ -169,6 +169,10 @@
 	border-width:20px;  
     border-style:double;
 }
+}
+
+#comment {
+	width:300px;
 }
 
 
